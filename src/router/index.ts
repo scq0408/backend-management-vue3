@@ -21,7 +21,8 @@ const routes: RouteRecordRaw[] = [
                     title: '系统首页',
                     noAuth: true,
                 },
-                component: () => import(/* webpackChunkName: "dashboard" */ '../views/dashboard.vue'),
+                component: () => import(/* webpackChunkName: "dashboard" */ '../views/iframeDragDemo/index.vue'),
+                // component: () => import(/* webpackChunkName: "dashboard" */ '../views/dashboard.vue'),
             },
             {
                 path: '/system-user',
